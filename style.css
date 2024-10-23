@@ -8,6 +8,7 @@ html{
 body, html{
     font-family: poppins, sans-serif;
     width: 100%;
+    color: black;
 }
 nav{
     padding: 10px;
