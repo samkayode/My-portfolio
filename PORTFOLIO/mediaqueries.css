@@ -1,0 +1,244 @@
+
+    @media screen and (max-width: 1400px){
+    #desktop-nav{
+        display: none;
+    }
+    #second-nav{
+        display: flex;
+
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+   #desktop-nav{
+       display: none;
+   }
+   #second-nav{
+       display: flex;
+
+   }
+   .sbutton{
+      display: none;
+   }
+}
+
+@media screen and (max-width: 600px){
+    .profile{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        display: block;
+        justify-content: center;
+    }
+    body, html{
+        font-family: poppins, sans-serif;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    
+    .second-icon{
+        margin-left: 5rem;
+    }
+    .text-p1{
+        font-size: 10px;
+        margin: 0 4rem;
+        padding-top: 2rem;
+    }
+    .text-p1 p{
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+     }
+     .text-p1 h3{
+        font-size: 1.3rem;
+     }
+     .text-p1 h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+     }
+    .btn1, .btn2{
+        font-weight: 300;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        border: rgb(53, 53, 53) 0.2rem solid;
+        cursor: pointer;
+     }
+     .image{
+        border-radius: 60%;
+        height: 230px;
+        width: 230px;
+     }
+     .image-container{
+        padding-top: 2rem;
+        height: 300px;
+        width: 300px;
+        padding-left: 7rem;
+     }
+     .sbutton{
+        display: none;
+     }
+/*ABOUT*/
+#ABOUT{
+    height: 100vh;
+    width: 100%;
+ }
+ .about-image{
+    height: 150px;
+    width: 200px;
+    margin-left: 5rem;
+ }
+ .aimg{
+    border-radius: 1rem;
+    height: 230px;
+    width: 230px;
+ }
+.exp-container{
+    border: 1px solid grey;
+    text-align: center;
+    height: 160px;
+    border-radius: 2rem;
+    padding-bottom: 10px;
+    width: 200px;
+ }
+ .edu-container{
+    border: 1px solid grey;
+    text-align: center;
+    height: 160px;
+    border-radius: 2rem;
+    width: 200px;
+ }
+ .about-text{
+    width: 420px;
+  }
+  .atext{
+     text-align: justify;
+     font-weight: 500;
+     line-height: 1.2;
+  }
+
+  .main-container{
+    width: 100%;
+    gap: 2rem;
+    display: block;
+    justify-content: center;
+    margin-left: 2rem;
+ }
+ .about-container{
+    height: 100vh;
+ }
+ .second-container{
+    width: 500px;
+    padding-top: 8rem;
+ }
+ /*SKILLS*/
+ #SKILLS{
+    height: 100vh;
+    width: 500px;
+    position: relative;
+    align-items: center;
+   }
+   .smain-container{
+     border: 0.1rem solid black;
+     border-radius: 1.5rem;
+     width: 450px;
+     align-items: center;
+     height: 400px;
+     margin-top: 10vh;
+     text-align: center;
+   }
+   .skills-container{
+       display: flex;
+       justify-content: center;
+   }
+  .box1{
+     margin-bottom: 2rem;
+     margin-top: 8rem;
+  }
+  .box-2{
+     margin-bottom: 2rem;
+     margin-top: 8rem;
+  }
+  .box-text3{
+    margin-right: 1rem;
+  }
+  .box-text1, .box-text2, .box-text3, .box-text4{
+    display: flex;
+    gap: 0.1rem;
+ }
+ /*PROJECTS*/
+ .projects{
+    padding-top: 1rem;
+    justify-content: center;
+    margin: 0.5rem;
+  }
+  .main-projects-container{
+    text-align: center;
+    padding-top: 2rem;
+ }
+ .projects{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border: none;
+    
+ }
+ /*CONTACT*/
+ .contact-main-box{
+    height: 300px;
+    width: 450px;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 3rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+ }
+ #CONTACT{
+    height: 70vh;
+    padding-top: 30vh;
+ }
+ .mail-box{
+    display: block;
+    justify-content: center;
+    margin-top: 4rem;
+ }
+ */
+ .sbutton{
+    display: none;
+ }
+ footer{
+    background-color: #333;
+    padding: 3px;
+    color: hsl(0, 0%, 50%);
+    text-align: center;
+    gap: 2rem;
+    box-sizing: border-box;
+    display: block;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+
+ }
+ 
+ .footer-container{
+    display: block;
+    gap: 2rem;
+    align-items: center;
+    font-size: 18px;
+    height: fit-content;
+    width: 100%;
+ }
+ .links ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 500;
+    
+ }
+
+}

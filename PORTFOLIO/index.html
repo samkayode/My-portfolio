@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet"  href="style.css">
+        <link rel="stylesheet" href="mediaqueries.css">
+    </head>
+    <body> 
+ <nav id="desktop-nav">
+           <div class="logo">KAYODE SAMUEL</div>
+             <div class="link"> 
+           <ul>
+            <li><a href="#HOME">Home</a></li>
+            <li><a href="#ABOUT">About</a></li>
+            <li><a href="#SKILLS">Skills</a></li>
+            <li><a href="#PROJECTS">Projects</a></li>
+            <li><a href="#CONTACT">Contact</a></li>
+            </ul>
+            </div>
+ </nav>
+ <nav id="second-nav">
+        <div class="logo">KAYODE SAMUEL</div>  
+       <div class="second-menu">
+        <div class="second-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#HOME" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#ABOUT" onclick="toggleMenu()">About</a></li>
+            <li><a href="#SKILLS" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#PROJECTS" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#CONTACT" onclick="toggleMenu()">Contact</a></li>
+        </div>
+       </div>
+       </nav>
+       <!--profile-setion-->
+       <div class="profile">
+        <div class="text-p1">
+            <p class="profile-text">Hello, I'm</p>
+            <h1 class="text-name">Kayode Samuel</h1>
+            <h3 class="profile-text2">Front-end Developer</h3>
+          <div class="section-button">
+            <button class="btn1" onclick="downloadResume()">Download CV</button>
+            <button class="btn2" onclick="location.href=' #CONTACT'">CONTACT</button>
+          </div>
+          <div class="social-platform">
+            <img src="github.png"Github profile" 
+            class="icon" onclick="location.href = 'https://github.com/samkayode'" />
+             <img src="linkedin.jpeg" alt="linkedin profile"
+             class="icon" onclick="location.href = 'https://www.linkedin.com/in/kayode-samuel-timileyin-98b568294/'" />
+         </div>
+        </div>
+        <div class="image-container">
+            <img src="portfolio.JPG"  class="image"> 
+            </div>
+          </div>
+   <section id="ABOUT">
+    <p class="section1">About Me </p>
+    <div class="about-container">
+      <div class="main-container">
+        <div class="about-image">
+            <img src="portfolio.JPG" alt="second pic" class="aimg" />
+        </div>
+        <div class="second-container">
+        <div class="containers">
+        <div class="exp-container">
+            <img src="experience.png" alt="sam experience" class="exp-imag"/>
+            <h3 class="exp">Experience</h3>
+            <p>2 years <br><b>Front-end Development</b><br></p>
+        </div>
+        <div class="edu-container">
+            <img src="education.png" alt="sam education" class="edu-img" />
+            <h3 class="edu">Education</h3>
+            <p>Currently a student at <br><b>federal university of technology minna</b><br></p>
+        </div>
+        </div>
+        <div class="about-text">
+            <p class="atext"> I specialiaze in creating responsive, user-friendly, and visually appealing
+               websites. with expertise in Html, CSS, Javascript and modern framework like 
+               React. i focus on building intuitive and engaging interfaces that deliver seamless
+               user experience across all devices. i ensure every project i work on is efficient,
+               accessible and meets industry standards.</p>
+        </div>
+        </div>
+      </div>
+      <div class="scbar">
+        <img src="scrolldown.png" alt="scrolldown" onclick="location.href=' ./#SKILLS' " class="sbutton"/>
+      </div>
+    </div>
+   </section>    
+   <section id="SKILLS">
+      <p class="section-text1">Explore my</p>
+      <h1 class="title">SKILLS</h1>
+  <div class="skills-container">
+       <div class="smain-container">
+        <div class="article">
+          <div class="box1">
+                 <div class="box-text1">
+                 <img src="checkedB.png" alt="checked" class="checked">
+                 <div class="skill-article">
+                 <p>HTML</p>
+                 <h3>Experienced</h3>
+                 </div>
+                 </div>
+                 <div class="box-text2">
+               <img src="checkedB.png" alt="checked" class="checked">
+               <div class="skill-article">
+               <p>CSS</p>
+               <h3>Experienced</h3>
+                </div>
+                </div>
+           </div>
+          <div class="box-2">
+            <div class="box-text3">
+            <img src="checkedB.png" alt="checked" class="checked">
+            <div class="skill-article">
+            <p>Javascript</p>
+           <h3>Intermediate</h3>
+          </div>
+          </div>
+          <div class="box-text4">
+            <img src="checkedB.png" alt="checked" class="checked">
+            <div class="skill-article">
+            <p>React</p>
+           <h3>Basic</h3>
+          </div>
+          </div>
+          </div>
+       </div>
+    </div>
+  </div>
+    <div class="scbar">
+      <img src="scrolldown.png" alt="scrolldown" onclick="location.href=' ./#PROJECTS' " class="sbutton"/>
+    </div>
+   </section>
+   <section id="PROJECTS">
+    <p class="section-text1">Explore my</p>
+      <h1 class="title">PROJECTS</h1>
+      <div class="main-projects-container">
+        <div class="projects">
+         <div class="age-C"> 
+        <img src="age-calculator.jpeg" alt="age-calculator" class="ageI" />
+        <br>
+        <button class="project-btn" onclick="location.href= 'https://github.com/samkayode/AGE-CALCULATOR'">Github</button>
+         </div>
+         <div class="todo-C">
+           <img src="to-do list.jpeg" alt="to-do" class="to-doI" />
+           <br>
+           <button class="todo-btn" onclick="location.href= 'https://github.com/samkayode/Todo-app'">Github</button>
+         </div>
+         </div>
+        </div>
+              </div>
+      <div class="scbar">
+        <img src="scrolldown.png" alt="scrolldown" onclick="location.href=' ./#CONTACT' " class="sbutton"/>
+      </div>
+    </section>
+  <section id="CONTACT">
+    <p class="section-txt">Contact Me</p>
+    <div class="contact-box">
+      <div class="contact-main-box">
+        <div class="mail-box">
+          <div class="email">
+          <img src="Email.png" alt="Contact-image" class="email-img" />
+          <a href="mailto:kayodesamuel531@gmail.com">Email to Kayode Samuel</a>
+          </div>
+          <div class="linkedin">
+            <img src="linkedin.jpeg" alt="Contact-image" class="link-img" />
+            <a href="https://www.linkedin.com/in/kayode-samuel-timileyin-98b568294/">linkedin</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <p>copyright &#169; 2024 Kayode Samuel.All Rights Reserved.</p>
+      <div class="footer-social">
+      <p>contact with me:
+        <a href="mailto:kayodesamuel531@gmail.com">Email</a>
+        &amp;
+        <a href="https://www.linkedin.com/in/kayode-samuel-timileyin-98b568294/">linkedin</a>
+      </p>
+      </div>
+        <div class="links"> 
+           <ul>
+            <li><a href="#ABOUT">About</a></li>
+            <li><a href="#SKILLS">Skills</a></li>
+            <li><a href="#PROJECTS">Projects</a></li>
+            <li><a href="#CONTACT">Contact</a></li>
+            </ul>
+            </div>
+    </div>
+  </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
