@@ -16,7 +16,7 @@ nav{
     display: flex;
     align-items: center;
     height: 18vh;
-    color: red;
+    color: black;
 }
 .logo{
     font-size: 1rem;
@@ -40,6 +40,7 @@ nav .link ul li{
 nav .link ul li a{
     text-decoration: none;
     font-weight: bolder;
+   color: black;
 }
 nav .link ul li a:hover{
     color:  #ea1538;
