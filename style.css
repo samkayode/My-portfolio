@@ -8,7 +8,6 @@ html{
 body, html{
     font-family: poppins, sans-serif;
     width: 100%;
-    overflow-x: auto;
 }
 nav{
     padding: 10px;
